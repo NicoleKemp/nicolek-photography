@@ -1,0 +1,11 @@
+<section class="bg-full bg-home">
+  <div class="logo"></div>
+  <a (click)="scroll(portfolio, $event)" id="scroll-to-section">
+    <img src="../../assets/arrow-scroll.svg" width="36">
+  </a>
+</section>
+<app-about></app-about>
+<div #portfolio>
+  <app-portfolio-slider></app-portfolio-slider>
+</div>
+<app-contact></app-contact>

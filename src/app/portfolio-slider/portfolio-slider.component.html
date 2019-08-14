@@ -1,0 +1,16 @@
+<section class="bg-full p-0 portfolio">
+  <!--<a class="view-more btn btn-outline-light">View Portfolio</a>-->
+  <ngb-carousel>
+    <div *ngFor="let number of images">
+      <ng-template ngbSlide>
+        <img src="{{ number.imageURL }}" alt="" align="middle">
+        <div class="carousel-caption">
+          <div class="caption-wrapper">
+            <h3>{{number.imageTitle}}</h3>
+            <p>{{number.imageStyle}} | {{number.imageDate}}</p>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+  </ngb-carousel>
+</section>

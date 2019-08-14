@@ -1,0 +1,30 @@
+.bg-home {
+  background: url("../../assets/bg-home.jpg") no-repeat center fixed;
+  background-size: cover;
+  .logo {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    background: url("../../assets/logo@2x.png") no-repeat center;
+    background-size: contain;
+    margin: auto;
+  }
+  #scroll-to-section {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 20px;
+    text-align: center;
+    transition: 1ms ease-in-out;
+    animation: pulse 1s 6;
+    &:hover {
+      animation: pulse 1s infinite;
+      cursor: pointer;
+    }
+    @keyframes pulse {
+      0% { transform: translateY(0);}
+      50% { transform: translateY(-10px);}
+      100% { transform: translateY(0);}
+    }
+  }
+}
