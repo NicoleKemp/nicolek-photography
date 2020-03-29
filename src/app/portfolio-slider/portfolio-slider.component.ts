@@ -65,6 +65,27 @@ export class PortfolioSliderComponent implements OnInit {
       imageTitle: 'Elephant Park, Knysna, Western Cape',
       imageStyle: 'Wild Life',
       imageDate: 'March 2018'
+    },
+    {
+      imageID: '10',
+      imageURL: '../assets/portfolio/10.jpg',
+      imageTitle: 'Promenade, Sea Point, Western Cape',
+      imageStyle: 'Landscape',
+      imageDate: 'March 2020'
+    },
+    {
+      imageID: '11',
+      imageURL: '../assets/portfolio/11.jpg',
+      imageTitle: 'Promenade, Sea Point, Western Cape',
+      imageStyle: 'Landscape',
+      imageDate: 'March 2020'
+    },
+    {
+      imageID: '12',
+      imageURL: '../assets/portfolio/12.jpg',
+      imageTitle: 'Promenade, Sea Point, Western Cape',
+      imageStyle: 'Landscape',
+      imageDate: 'March 2020'
     }
   ];
 
